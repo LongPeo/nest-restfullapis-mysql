@@ -1,0 +1,16 @@
+export const ACCOUNT_INACTIVE = 'INACTIVATED';
+export const ACCOUNT_LOCKED = 'LOCKED';
+export const ACCOUNT_ACTIVE = 'ACTIVATED';
+
+export const ACCOUNT_TYPE_PERSONAL = 'PERSONAL';
+export const ACCOUNT_TYPE_BUSINESS = 'BUSINESS';
+export const STATUS_ACTIVE = 'ACTIVATED';
+export const STATUS_INACTIVE = 'INACTIVATED';
+
+export const ERROR_LOGIN_OTHER_DEVICE = 'LOGIN_OTHER_DEVICE';
+export const ERROR_STATUS_USER_CHANGED = 'STATUS_USER_CHANGED';
+
+export const ACCESS_ALL = '*';
+export const ACCESS_USER = 'USER';
+export const ACCESS_ROLE = 'ROLE';
+export const ACCESS_STAFF = 'STAFF';
