@@ -9,6 +9,7 @@ import { Role } from './role/role.entity';
 import { Staff } from './staff/staff.entity';
 import { LoggerModule } from './common/logger/logger.module';
 import { AuthModule } from './auth/auth.module';
+import { RoleModule } from './role/role.module';
 @Module({
   imports: [
     ConfigModule.forRoot(),
@@ -26,6 +27,7 @@ import { AuthModule } from './auth/auth.module';
     TerminusModule,
     LoggerModule,
     AuthModule,
+    RoleModule,
   ],
   controllers: [AppController, HealthController],
   providers: [AppService],

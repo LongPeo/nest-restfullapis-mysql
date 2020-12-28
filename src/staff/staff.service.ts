@@ -32,8 +32,8 @@ export class StaffService {
       .innerJoinAndSelect(Role, 'Role', 'Role.id = Staff.roleId')
       .select([
         'Staff.id as id',
-        '"email"',
-        '"fullName"',
+        'email',
+        'fullName',
         'mobile',
         'address',
         'Role.name as "roleName"',
@@ -75,8 +75,8 @@ export class StaffService {
       .innerJoinAndSelect(Role, 'Role', 'Role.id = Staff.roleId')
       .select([
         'Staff.id as id',
-        '"email"',
-        '"fullName"',
+        'email',
+        'fullName',
         'mobile',
         'address',
         'Role.id as "roleId"',
